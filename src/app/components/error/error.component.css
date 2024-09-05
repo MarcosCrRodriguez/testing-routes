@@ -1,0 +1,48 @@
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  color: rgb(187, 40, 40);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2.5px solid white;
+  margin: 0 31%;
+  padding-top: 35px;
+  background: rgba(136, 134, 134, 0.4);
+}
+
+.error-msg {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(170, 12, 12);
+  margin-top: -5px;
+  margin-bottom: -2px;
+}
+
+.retry-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.retry-btn button {
+  margin: 20px;
+  border: 2px solid black;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.retry-btn button {
+  background: rgb(203, 63, 63);
+}
